@@ -1,0 +1,11 @@
+C:\Software\UTG\UTG\bin\Debug\UTG.exe.config
+C:\Software\UTG\UTG\bin\Debug\UTG.exe
+C:\Software\UTG\UTG\bin\Debug\UTG.pdb
+C:\Software\UTG\UTG\obj\Debug\UTG.exe
+C:\Software\UTG\UTG\obj\Debug\UTG.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\bin\Debug\UTG.exe.config
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\obj\Debug\UTG.exe
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\obj\Debug\UTG.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\bin\Debug\UTG.exe
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\bin\Debug\UTG.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG\obj\Debug\UTG.csprojResolveAssemblyReference.cache

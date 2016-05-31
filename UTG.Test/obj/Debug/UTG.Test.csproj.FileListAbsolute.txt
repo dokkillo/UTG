@@ -1,0 +1,14 @@
+C:\Software\UTG\UTG.Test\obj\Debug\UTG.Test.csprojResolveAssemblyReference.cache
+C:\Software\UTG\UTG.Test\bin\Debug\UTG.Test.dll
+C:\Software\UTG\UTG.Test\bin\Debug\UTG.Test.pdb
+C:\Software\UTG\UTG.Test\bin\Debug\UTG.exe
+C:\Software\UTG\UTG.Test\bin\Debug\UTG.pdb
+C:\Software\UTG\UTG.Test\obj\Debug\UTG.Test.dll
+C:\Software\UTG\UTG.Test\obj\Debug\UTG.Test.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.Test.dll
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.Test.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.exe
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.pdb
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.csprojResolveAssemblyReference.cache
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.dll
+C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.pdb
