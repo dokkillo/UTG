@@ -8,16 +8,10 @@ namespace UTG.Utils
 {
     public static class MathUtil
     {
-        public static double GetRandomNumber(double minimum, double maximum)
+        public static double GetRandomNumber(double Minimum, double Maximum)
         {            
             Random random = new Random(SeedUtil.GetSeed());
-            return random.NextDouble() * (maximum - minimum) + minimum;
-        }
-
-        public static double GetRandomNumber(int minimum, int maximum)
-        {
-            Random random = new Random(SeedUtil.GetSeed());
-            return random.NextDouble() * (maximum - minimum) + minimum;
-        }
+            return random.NextDouble() * (Maximum - Minimum) + Minimum;
+        }  
     }
 }

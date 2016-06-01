@@ -15,9 +15,21 @@ namespace UTG.Universe.Generate
         {
             PlanetData Planet = new PlanetData();
             Planet.Size = MathUtil.GetRandomNumber(PlanetBase.MinSize(), PlanetBase.MaxSize());
+            Planet.Type = PlanetBase;
+            Planet.HeliumQuantity = GetMaterialQuantity(PlanetBase.HeliumProportion(), Planet.Size);
+            Planet.HidrogenQuantity = GetMaterialQuantity(PlanetBase.HidrogenProportion(), Planet.Size);
+            Planet.IronQuantity = GetMaterialQuantity(PlanetBase.IronProportion(), Planet.Size);
+            Planet.OxygenQuantity = GetMaterialQuantity(PlanetBase.OxygenProportion(), Planet.Size);
+            Planet.PlatiniumQuantity = GetMaterialQuantity(PlanetBase.PlatiniumProportion(), Planet.Size);
+            Planet.UraniumQuantity = GetMaterialQuantity(PlanetBase.UraniumProportion(), Planet.Size);
+            Planet.VanadiumQuantity = GetMaterialQuantity(PlanetBase.VanadiumProportion(), Planet.Size);
             return Planet;
         }
 
+        private static double GetMaterialQuantity(double MaterialQuantity, double PlanetSize)
+        {
+            return MaterialQuantity * PlanetSize;
+        }
 
     }
 }

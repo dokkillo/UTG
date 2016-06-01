@@ -18,6 +18,18 @@ namespace UTG.Test
             Assert.IsTrue(result.Size >= barrenPlanet.MinSize());
             Assert.IsTrue(result.Size <= barrenPlanet.MaxSize());
             Assert.IsTrue(result.Size != result2.Size);
+            Assert.IsTrue(result.HeliumQuantity > 0);
+            Assert.IsTrue(result.HeliumQuantity == barrenPlanet.HeliumProportion() * result.Size);
+            Assert.IsTrue(result.HidrogenQuantity > 0);
+            Assert.IsTrue(result.HidrogenQuantity == barrenPlanet.HidrogenProportion() * result.Size);
+            Assert.IsTrue(result.IronQuantity > 0);
+            Assert.IsTrue(result.IronQuantity == barrenPlanet.IronProportion() * result.Size);
+            Assert.IsTrue(result.OxygenQuantity > 0);
+            Assert.IsTrue(result.OxygenQuantity == barrenPlanet.OxygenProportion() * result.Size);
+            Assert.IsTrue(result.PlatiniumQuantity > 0);
+            Assert.IsTrue(result.PlatiniumQuantity == barrenPlanet.PlatiniumProportion() * result.Size);
+            Assert.IsTrue(result.UraniumQuantity > 0);
+            Assert.IsTrue(result.UraniumQuantity == barrenPlanet.UraniumProportion() * result.Size);
         }
     }
 }
