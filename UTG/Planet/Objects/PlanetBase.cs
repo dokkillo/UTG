@@ -10,8 +10,6 @@ namespace UTG.Planet.Objects
     {
         public string Name {get;set;}
 
-        public string GetType  {get;set;}
- 
         public bool CanHandleLive  {get;set;}       
 
         public double Frequency  {get;set;}   

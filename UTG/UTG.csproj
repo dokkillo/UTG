@@ -49,10 +49,6 @@
     <Compile Include="Material\Objects\Plantinium.cs" />
     <Compile Include="Material\Objects\Uranium.cs" />
     <Compile Include="Material\Objects\Vanadium.cs" />
-    <Compile Include="Planet\Interface\IPlanet.cs" />
-    <Compile Include="Planet\Objects\Barren.cs" />
-    <Compile Include="Planet\Objects\Gas.cs" />
-    <Compile Include="Planet\Objects\Oceanic.cs" />
     <Compile Include="Planet\Objects\PlanetBase.cs" />
     <Compile Include="Planet\Objects\PlanetData.cs" />
     <Compile Include="Planet\Objects\PlanetType.cs" />

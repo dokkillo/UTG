@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UTG.Planet.Interface;
 
 namespace UTG.Planet.Objects
 {
@@ -16,7 +15,6 @@ namespace UTG.Planet.Objects
         public double PlatiniumQuantity { get; set; }
         public double UraniumQuantity { get; set; }
         public double VanadiumQuantity { get; set; }
-        public IPlanet Type { get; set; }
         public string Name { get; set; }
         public double Size { get; set; }
 
