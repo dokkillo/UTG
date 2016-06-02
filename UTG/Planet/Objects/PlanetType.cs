@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace UTG.Planet.Objects
 {
-    class Oceanic
+    public enum PlanetType
     {
+        Barren = 1,
+        Oceanic = 2,
+        Gas = 3
     }
 }
