@@ -14,7 +14,6 @@ C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.dll
 C:\Users\gabriel-costa\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.pdb
 C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.Test.dll
 C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.Test.pdb
-C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.exe
 C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\bin\Debug\UTG.pdb
 C:\Users\dokko\Documents\GitHub\UTG\UTG.Test\obj\Debug\UTG.Test.csprojResolveAssemblyReference.cache

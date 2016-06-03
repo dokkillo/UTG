@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UTG.Data;
 using UTG.Planet.Objects;
 using UTG.Utils;
 
@@ -15,10 +16,19 @@ namespace UTG.Universe.Generate
         {
             List<PlanetData> PlanetList = new List<PlanetData>();
             var numPlanets = MathUtil.GetRandomNumber(1, MAX_NUM_PLANETS);
+            var planetBaseList = PlanetBaseList.GetTypes();
 
-
-
-
+            foreach (var planetBase in planetBaseList)
+            {
+                var numPlanetTypes = planetBase.Frequency  / numPlanets;
+                if(numPlanetTypes > 0)
+                {
+                    for (int i = 0; i < numPlanetTypes; i++)
+                    {
+                        PlanetList.Add(PlanetGenerator.Init(planetBase));
+                    }
+                }
+            }
             return PlanetList;
         }
     }
