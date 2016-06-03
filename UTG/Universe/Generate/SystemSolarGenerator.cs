@@ -15,12 +15,12 @@ namespace UTG.Universe.Generate
         public static List<PlanetData> Init()
         {
             List<PlanetData> PlanetList = new List<PlanetData>();
-            var numPlanets = MathUtil.GetRandomNumber(1, MAX_NUM_PLANETS);
+            var numPlanets = MathUtil.GetRandomNumber(1, MAX_NUM_PLANETS,true);
             var planetBaseList = PlanetBaseList.GetTypes();
 
             foreach (var planetBase in planetBaseList)
             {
-                var numPlanetTypes = planetBase.Frequency  / numPlanets;
+                var numPlanetTypes = Convert.ToInt32((planetBase.Frequency  * numPlanets)/100);
                 if(numPlanetTypes > 0)
                 {
                     for (int i = 0; i < numPlanetTypes; i++)

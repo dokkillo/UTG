@@ -12,6 +12,11 @@ namespace UTG.Utils
         {            
             Random random = new Random(SeedUtil.GetSeed());
             return random.NextDouble() * (Maximum - Minimum) + Minimum;
+        }
+
+        public static int GetRandomNumber(double Minimum, double Maximum, bool isInt)
+        {
+            return Convert.ToInt32(GetRandomNumber(Minimum, Maximum));
         }  
     }
 }
