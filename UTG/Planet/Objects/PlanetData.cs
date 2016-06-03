@@ -17,6 +17,7 @@ namespace UTG.Planet.Objects
         public double VanadiumQuantity { get; set; }
         public string Name { get; set; }
         public double Size { get; set; }
+        public PlanetType Type { get; set; }
 
     }
 }

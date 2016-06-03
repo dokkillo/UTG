@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\PlanetBaseList.cs" />
     <Compile Include="Material\Interface\IMaterial.cs" />
     <Compile Include="Material\Objects\Helium.cs" />
     <Compile Include="Material\Objects\Hidrogen.cs" />

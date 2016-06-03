@@ -8,6 +8,31 @@ namespace UTG.Planet.Objects
 {
     public class PlanetBase
     {
+        public PlanetBase()
+        {
+
+        }
+
+        public PlanetBase(string _name, bool _canHandleLive, double _frecuency, bool _canHandleCities,
+            double _minSize, double _maxSize, double _heliumProportion, double _hidrogenProportion, double _ironProportion,
+            double _oxygenProportion,double _platiniumProportion, double _uraniumProportion, double _vanadiumProportion, PlanetType _planetType)
+        {
+            this.Name = _name;
+            this.CanHandleLive = _canHandleLive;
+            this.Frequency = _frecuency;
+            this.CanHandleCities = _canHandleCities;
+            this.MinSize = _minSize;
+            this.MaxSize = _maxSize;
+            this.HeliumProportion = _heliumProportion;
+            this.HidrogenProportion = _hidrogenProportion;
+            this.IronProportion = _ironProportion;
+            this.OxygenProportion = _oxygenProportion;
+            this.PlatiniumProportion = _platiniumProportion;
+            this.VanadiumProportion = _vanadiumProportion;
+            this.UraniumProportion = _uraniumProportion;
+            this.Type = _planetType;
+        }
+
         public string Name {get;set;}
 
         public bool CanHandleLive  {get;set;}       
